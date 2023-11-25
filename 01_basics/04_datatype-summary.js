@@ -65,3 +65,33 @@ console.log(typeof(outSideTemp))
 console.log(typeof(myFunction))
 console.log(typeof(myObj))
 console.log(typeof(bigNumber))
+
+
+/****************MEMORY**************************/
+
+// Stack(Primitive), heap(non-primitive)
+
+
+let myYoutubeName= "Mayank Shrivastava"
+let anotherName = myYoutubeName
+
+
+// console.log(anotherName);
+anotherName="Mayank N Shrivastava"  
+console.log(anotherName);
+console.log(myYoutubeName);
+
+
+let userOne={
+    email :"mayank19.gmail.com",
+    upi :"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email= "mayank@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
