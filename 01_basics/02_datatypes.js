@@ -28,7 +28,7 @@ let state2=null
 
 //object
 
-console.log(typeof "Super11");
+console.log(typeof ("Super11"));
 
 console.log(typeof null);
 console.log(typeof undefined);          
